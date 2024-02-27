@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="~/AmersfoortBoardgameEmporium.styles.css" asp-append-version="true" />
 </head>
 <body>
+    <div class="container">
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
@@ -53,11 +54,26 @@
     </div>
 
     <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - AmersfoortBoardgameEmporium - <a asp-area="" asp-page="/Privacy">Privacy</a>
+        <div class="row">
+            <div class="col-md-4">
+                <img id="logo" src="~/assets/logo-abe.png" />
+                <p>&copy; 2024 - AmersfoortBoardgameEmporium - </p>
+            </div>
+            <div class="col-md-4">
+                <p>1234 Emporium Road</p>
+                <p>Amersfoort</p>
+                <p>Phone: 033 123 4567</p>
+                <p>Email: amersfoortboardgameemporium@gmail.com</p>
+            </div>
+            <div class="col-md-4">
+                <div class="footer-pic">
+                    <img id="logo" src="~/assets/the-shop.jpg" />
+                    <p asp-area="" asp-page="/Privacy">Privacy</p>
+                </div>
+            </div>
         </div>
     </footer>
-
+    </div>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
