@@ -10,7 +10,7 @@ html {
 
 body {
     margin-bottom: 60px;
-    background: url("../images/cups-dark.png");
+    background: url("~/assets/game-shelf.jpg");
     background-size: cover;
 }
 
@@ -92,4 +92,3 @@ table img {
 form img {
     max-width: 350px;
 }
-/* This is a version check. */

@@ -4,10 +4,28 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container-fluid dashboard">
+    <h1 class="h2">Welcome</h1>
+    <hr />
+    <div class="row">
+        <div class="col-md-6">
+
+        </div>
+        <div class="col-md-6">
+            
+            <div class="card">
+                <div class="card-header">
+                    Request Help
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Contact our IT Team</h5>
+                    <p class="card-text">Having an issue with the site? Let us know!</p>
+                    <a asp-page="help" class="btn btn-info">Request Help</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 </div>
 
-@* branch protection test *@
-@* branch protection test 2*@
